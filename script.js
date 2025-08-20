@@ -6,7 +6,7 @@ function updateTime(){
     let minutes = present.getMinutes().toString().padStart(2,0)
     let seconds = present.getSeconds().toString().padStart(2,0)
 
-    let meridiem = hours >= 12 ? "PM" : "AM"
+    let meridiem = hours >= 12 ? "PM" : "AM";
 
     timeElement.innerHTML = `${hours}:${minutes}:${seconds} ${meridiem}`
 }
