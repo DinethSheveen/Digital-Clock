@@ -4,8 +4,17 @@
     box-sizing: border-box;
 }
 
-body{
+.container{
+    min-height: 100vh;
     background: url("media/bg-img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock{
+    color: #ffffff;
+    font-size: 5rem;
 }
